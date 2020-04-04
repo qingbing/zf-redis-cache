@@ -1,0 +1,42 @@
+{
+  "name": "qingbing/zf-redis-cache",
+  "description": "Redis缓存",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "php",
+    "zf",
+    "redis",
+    "cache"
+  ],
+  "homepage": "http://www.phpcorner.net",
+  "authors": [
+    {
+      "name": "qingbing",
+      "email": "780042175@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "qingbing/zf-helper": "^1.0.1",
+    "qingbing/zf-abstract-cache": "^1.0.1"
+  },
+  "require-dev": {
+    "qingbing/debug-bootstrap": "dev-master"
+  },
+  "suggest": {
+    "qingbing/zf-conf": "建议使用zf-conf来管理配置信息"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zf\\Cache\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\Debug\\": "test/debug",
+      "Test\\Commands\\": "test/src/command",
+      "Test\\Web\\": "test/src/web"
+    }
+  }
+}
