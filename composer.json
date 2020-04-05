@@ -18,6 +18,7 @@
   ],
   "require": {
     "php": ">=7.0.0",
+    "ext-redis": "*",
     "qingbing/zf-helper": "^1.0.1",
     "qingbing/zf-abstract-cache": "^1.0.1"
   },
