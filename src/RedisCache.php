@@ -77,7 +77,7 @@ class RedisCache extends ACache
      *
      * @return bool
      */
-    protected function setValue(string $id, string $value, $ttl): bool
+    protected function setValue(string $id, $value, $ttl): bool
     {
         return $this->redis->setex($id, $ttl, $value);
     }
