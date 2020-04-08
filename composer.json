@@ -36,7 +36,6 @@
   "autoload-dev": {
     "psr-4": {
       "Test\\Debug\\": "test/debug",
-      "Test\\Commands\\": "test/src/command",
       "Test\\Web\\": "test/src/web"
     }
   }
